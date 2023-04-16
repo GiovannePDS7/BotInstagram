@@ -13,7 +13,7 @@ with sync_playwright() as p:
     page.keyboard.type("SUA SENHA") #sua senha
     page.keyboard.press("Enter")
     time.sleep(5)
-    page.goto('https://www.instagram.com/p/Cq_jIQLss7-/')
+    page.goto("URL DA PUBLICACAO") #link da pub em que o programa ira rodar
     time.sleep(2)
 # Interage com as postagens
 
